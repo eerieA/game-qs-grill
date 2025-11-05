@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bsgilbryd3wy8"]
+
+[ext_resource type="Script" uid="uid://ccxxxrk5qaw21" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://btt5rb6jsorjm" path="res://scenes/car3d.tscn" id="2_0wfyh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_0wfyh"]
+size = Vector2(19.2, 10.8)
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_o5qli")
+card3d_scene = ExtResource("2_0wfyh")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.34815323, -0.920355, -0.17814639, 0.7460691, 0.15696912, 0.64710265, -0.56760067, -0.35820037, 0.7412975, 0, 2.4931202, 0.38932037)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 3, 0)
+projection = 1
+fov = 120.0
+size = 10.8
+far = 30.0
+
+[node name="refPlane" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_0wfyh")

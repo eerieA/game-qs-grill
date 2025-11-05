@@ -1,4 +1,5 @@
+extends Resource
 class_name CardData
 
-var suit: String
-var rank: int
+@export var suit: String
+@export var rank: int

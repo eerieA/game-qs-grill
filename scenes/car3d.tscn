@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://btt5rb6jsorjm"]
+
+[ext_resource type="Material" uid="uid://d2kmruct43bar" path="res://assets/materials/card3d.tres" id="1_kv6y2"]
+[ext_resource type="Script" uid="uid://bcqwlv4n2okag" path="res://scripts/scenes/card3d.gd" id="1_pkj74"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_mxbvw"]
+material = ExtResource("1_kv6y2")
+size = Vector3(1, 0.02, 1.4)
+
+[node name="Car3d" type="Node3D"]
+script = ExtResource("1_pkj74")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_mxbvw")
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.03, -0.4)
+text = "A♠"
+font_size = 80

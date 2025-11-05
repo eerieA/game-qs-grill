@@ -23,6 +23,7 @@ func evaluate_hand(cards: Array[CardData]) -> Dictionary:
 	count_values.sort()
 
 	# Start matching patterns (from strongest to weakest)
+	# Hard coded for now
 	if is_straight and is_flush:
 		return { "name": "Straight Flush", "chips": 100, "mult": 4 }
 	elif 4 in count_values:
