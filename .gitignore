@@ -1,3 +1,22 @@
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.tmp
+
+# build/export artifacts
+build/
+exports/
+
+# editor stuff
+.vscode/
+.idea/
+*.code-workspace
+
 # Godot 4+ specific ignores
 .godot/
 /android/
+.import/
+*.translation
