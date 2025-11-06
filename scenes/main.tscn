@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bsgilbryd3wy8"]
 
 [ext_resource type="Script" uid="uid://ccxxxrk5qaw21" path="res://scripts/main.gd" id="1_o5qli"]
-[ext_resource type="PackedScene" uid="uid://btt5rb6jsorjm" path="res://scenes/car3d.tscn" id="2_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://btt5rb6jsorjm" path="res://scenes/card3d.tscn" id="2_0wfyh"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_0wfyh"]
 size = Vector2(19.2, 10.8)

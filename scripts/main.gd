@@ -32,7 +32,8 @@ func _display_hand(hand: Array):
 	var total_width = (card_count - 1) * spacing
 	var start_x = -total_width / 2.0
 
-	var fan_angle = deg_to_rad(20.0)  # total spread angle
+	# total spread angle
+	var fan_angle = deg_to_rad(20.0)
 	var start_angle = -fan_angle / 2.0
 
 	for i in range(card_count):
@@ -44,11 +45,12 @@ func _display_hand(hand: Array):
 			return
 
 		card.card_data = card_data
+		hand_anchor.add_child(card)
 
 		# Calculate each card's rotation using total spread angle and num of cards
 		var t = float(i) / (card_count - 1)
 		var angle = start_angle + t * fan_angle
 
 		card.position = Vector3(start_x + i * spacing, 0, 0)
-		card.rotation_degrees.y = rad_to_deg(-angle)
-		hand_anchor.add_child(card)
+		#card.rotation_degrees.y = rad_to_deg(-angle)
+		card.set_rotation_y(rad_to_deg(-angle))

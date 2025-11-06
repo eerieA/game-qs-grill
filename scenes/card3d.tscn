@@ -7,13 +7,18 @@
 material = ExtResource("1_kv6y2")
 size = Vector3(1, 0.02, 1.4)
 
-[node name="Car3d" type="Node3D"]
+[node name="Card3d" type="Node3D"]
 script = ExtResource("1_pkj74")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("BoxMesh_mxbvw")
+[node name="RotPivot" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3)
 
-[node name="Label3D" type="Label3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.03, -0.4)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RotPivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+mesh = SubResource("BoxMesh_mxbvw")
+skeleton = NodePath("../..")
+
+[node name="Label3D" type="Label3D" parent="RotPivot"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.03, -2.8)
 text = "A♠"
 font_size = 80
