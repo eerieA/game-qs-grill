@@ -20,5 +20,7 @@ fov = 120.0
 size = 10.8
 far = 30.0
 
+[node name="HandAnchor" type="MeshInstance3D" parent="."]
+
 [node name="refPlane" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_0wfyh")
