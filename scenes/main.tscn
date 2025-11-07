@@ -24,3 +24,21 @@ far = 30.0
 
 [node name="refPlane" type="MeshInstance3D" parent="."]
 mesh = SubResource("PlaneMesh_0wfyh")
+
+[node name="HandLookDevControls" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FanAngleSlider" type="HSlider" parent="HandLookDevControls"]
+layout_mode = 2
+tooltip_text = "Total fanning angle"
+max_value = 60.0
+
+[node name="SpacingSlider" type="HSlider" parent="HandLookDevControls"]
+layout_mode = 2
+tooltip_text = "Spacing of cards"
+max_value = 1.2
+step = 0.1
+
+[connection signal="value_changed" from="HandLookDevControls/FanAngleSlider" to="." method="_on_fan_angle_slider_value_changed"]
+[connection signal="value_changed" from="HandLookDevControls/SpacingSlider" to="." method="_on_spacing_slider_value_changed"]

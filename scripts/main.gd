@@ -6,34 +6,41 @@ extends Node3D
 
 @export var card3d_scene: PackedScene
 
+# These are used to store values passed from the HSlider value change
+var fan_angle_deg: float = 20.0
+var card_spacing: float = 0.005  # In world units, e.g. 1.0 means 1 m
+
+var current_hand: Array = []
+
 
 func _ready():
 	deck.generate_deck()
 	deck.shuffle_deck()
 
-	var hand = deck.draw(5)
+	current_hand = deck.draw(5)
 	print("--- Your hand ---")
-	for c in hand:
+	for c in current_hand:
 		print("%s of %s" % [c.rank, c.suit])
 
-	var result = evaluator.evaluate_hand(hand)
+	var result = evaluator.evaluate_hand(current_hand)
 	print("--- Result ---")
 	print(result)
-	
+
 	# Visualize the random hand
-	_display_hand(hand)
+	_display_hand(current_hand)
+
 
 func _display_hand(hand: Array):
 	var card_count = hand.size()
 	if card_count == 0:
 		return
 
-	var spacing = 1.2  # distance between cards in meters
-	var total_width = (card_count - 1) * spacing
+	# distance between cards in meters
+	var total_width = (card_count - 1) * card_spacing
 	var start_x = -total_width / 2.0
 
 	# total spread angle
-	var fan_angle = deg_to_rad(20.0)
+	var fan_angle = deg_to_rad(fan_angle_deg)
 	var start_angle = -fan_angle / 2.0
 
 	for i in range(card_count):
@@ -51,6 +58,23 @@ func _display_hand(hand: Array):
 		var t = float(i) / (card_count - 1)
 		var angle = start_angle + t * fan_angle
 
-		card.position = Vector3(start_x + i * spacing, 0, 0)
+		card.position = Vector3(start_x + i * card_spacing, 0, 0)
 		#card.rotation_degrees.y = rad_to_deg(-angle)
 		card.set_rotation_y(rad_to_deg(-angle))
+
+
+func _refresh_hand():
+	# Remove current hand and re-display it with new layout
+	for c in hand_anchor.get_children():
+		c.queue_free()
+	_display_hand(current_hand)
+
+
+func _on_fan_angle_slider_value_changed(value: float) -> void:
+	fan_angle_deg = value
+	_refresh_hand()
+
+
+func _on_spacing_slider_value_changed(value: float) -> void:
+	card_spacing = value
+	_refresh_hand()
