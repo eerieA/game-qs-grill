@@ -8,6 +8,13 @@
             - [1. The Core Vibe: Confident Absurdity](#1-the-core-vibe-confident-absurdity)
             - [2. The Rhythm and Length: A Folksy, Nerdy Tall Tale](#2-the-rhythm-and-length-a-folksy-nerdy-tall-tale)
             - [3. Deconstruction of the Name](#3-deconstruction-of-the-name)
+    - [Core game idea brainstorm](#core-game-idea-brainstorm)
+        - [The Freelance Star-Trader & Explorer](#the-freelance-star-trader--explorer)
+        - [Resource Network Management](#resource-network-management)
+        - [Exploratory Deck-Builder RPG](#exploratory-deck-builder-rpg)
+        - [Temporal Puzzle Solving](#temporal-puzzle-solving)
+        - [“Galactic Menu Builder” (design / discovery loop)](#galactic-menu-builder-design--discovery-loop)
+        - [“Patron Detective” (narrative mystery / procedural investigation)](#patron-detective-narrative-mystery--procedural-investigation)
 
 <!-- /TOC -->
 
@@ -61,3 +68,79 @@ Each component of the name is carefully chosen to contribute to the overall effe
     This is the core comedic contrast that brings the whole name together.
     *   **"Emporium"** follows through on the promise of "Quasi-Stellar Luxodo" - a large, fancy establishment offering a wide variety of fine goods.
     *   **"& Grill"** immediately and hilariously punctures that pretension. It grounds the entire cosmic, luxurious enterprise in the humble, greasy-spoon reality of a diner. This collision promises a world where you can gamble with the fate of star systems, but also order a burger and fries. It is the ultimate expression of the game's high-concept, low-brow personality.
+
+## Core game idea brainstorm
+
+### The Freelance Star-Trader & Explorer
+
+This loop focuses more on a narrative journey. Phineas is a freelancer traveling the galaxy, and the Balatro mechanic is how he interacts with the world.
+
+**The Core Loop:**
+
+1.  **Travel a Star Map:** You have a galaxy map, similar to *FTL* or *Slay the Spire*. You choose to travel from node to node. Each node is an event.
+2.  **The Encounter:** An event could be:
+    *   **A Barter:** An alien trader offers you a deal. To get their rare artifact, you need to "impress" them by generating a score of 100,000 using a specific Convergence.
+    *   **A Hazard:** You need to "Overload a Starship's Shields" (meet a high score) or "Calibrate a Deep-Space Beacon" (create a specific hand like a 'straight flush').
+    *   **A Combat... of Sorts:** Instead of fighting, maybe you're engaged in "Economic Warfare" or a "Hacking Duel." Your score depletes an opponent's "Firewall Points." They might fight back by disabling one of your "Ship Modules" (Jokers) for a round.
+3.  **Resolve the Encounter (The Balatro Part):** You use your deck and modules to solve the problem presented. Success yields rewards (scrap, fuel, crew, artifacts); failure could lead to damage, lost resources, or a tougher path forward.
+4.  **Upgrade & Repair:** At starports, you use scrap to install new **Ship Modules (Jokers)**, recruit **Crew Members (Vouchers/Planets)** with special perks, and "Tune" your **Energy Core (Deck)**.
+
+**Unique Appeal:**
+*   Blends Balatro's mechanics with narrative decision-making and light RPG elements.
+*   The "build" (deck + modules) is constantly tested by a wide variety of challenges, not just "get a bigger number."
+*   High potential for emergent storytelling as player's specific build of modules and deck helps or hinders them in different situations.
+
+### Resource Network Management
+
+Instead of scoring points, you're managing a space station's interconnected systems:
+
+- Each "hand" represents allocating crew/resources to station modules
+- Poker hands become resource flow patterns (pair = efficient loop, flush = synchronized systems, etc.)
+- Between rounds, you upgrade modules and hire specialists (the "jokers")
+
+Unique twist: Modules can fail/need repair, creating dynamic priorities rather than pure optimization
+
+Win condition: Survive X cycles while completing story missions
+
+### Exploratory Deck-Builder RPG
+Hybrid with exploration/narrative:
+
+- The card-playing is your ship's combat/negotiation system
+- Between card battles: top-down exploration of space stations, planets, derelicts
+- Find new cards, jokers, and story threads through exploration
+
+Unique twist: Your deck composition affects exploration (certain cards unlock dialogue/paths, some NPCs join as "jokers")
+
+Balatro's tight loop becomes one pillar alongside exploration and narrative choice
+
+### Temporal Puzzle Solving
+
+You're a time-traveling card sharp trying to prevent paradoxes:
+
+- Each run represents one timeline attempt
+- Playing hands generates events in the story that you're trying to manipulate
+- "Jokers" are timeline artifacts that persist or interact across attempts
+
+Unique twist: Previously played hands leave "echoes" in future rounds - you're playing against/with your own past decisions
+
+Win condition: Engineer specific story outcomes through careful hand sequencing
+
+### “Galactic Menu Builder” (design / discovery loop)
+
+Core loop: discover/collect ingredients → design menu items (recipes are hand patterns) → serve customers in timed waves → iterate and expand menu (meta).
+
+How Balatro fits: recipe cards require making particular hands to unlock flavors/effects. Jokers are secret spices or kitchen accelerants that alter hand scoring (e.g., Joker “Umami” doubles diamond value if the hand contains at least 2 diamonds).
+
+Unique twist: menu experimentation unlocks narrative vignettes; customers with alien palates require unusual hand patterns.
+
+Why different: blends cooking-sim progression and procedural discovery with Balatro’s hand creation.
+
+### “Patron Detective” (narrative mystery / procedural investigation)
+
+Core loop: talk to patrons → gather clues (cards revealed) → assemble hands to form “evidence combos” → solve cases → advance story (meta loop).
+
+How Balatro fits: evidence pieces are cards; certain poker hands represent logical leaps (pair = corroboration, straight = timeline, flush = motive). Jokers are witness statements or lab results that alter interpretation/order of evidence. Activation order changes which clues are considered first (bias mechanic).
+
+Unique twist: “confirmation bias” mechanic - earlier Jokers increase the weight of later evidence. You must manage bias to uncover the real truth.
+
+Why different: transforms the probability/combo language into inference and narrative reasoning.
