@@ -15,6 +15,7 @@
         - [Temporal Puzzle Solving](#temporal-puzzle-solving)
         - [“Galactic Menu Builder” (design / discovery loop)](#galactic-menu-builder-design--discovery-loop)
         - [“Patron Detective” (narrative mystery / procedural investigation)](#patron-detective-narrative-mystery--procedural-investigation)
+    - [Actual rough core game idea](#actual-rough-core-game-idea)
 
 <!-- /TOC -->
 
@@ -144,3 +145,24 @@ How Balatro fits: evidence pieces are cards; certain poker hands represent logic
 Unique twist: “confirmation bias” mechanic - earlier Jokers increase the weight of later evidence. You must manage bias to uncover the real truth.
 
 Why different: transforms the probability/combo language into inference and narrative reasoning.
+
+## Actual rough core game idea
+
+Felt like the galactic menu builder and life coach idea is easier. So there is a FP + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
+
+- Card-based “cooking” gameplay (Balatro-style combo system), gives money and narrative clues (clue fragments)
+- Short narrative puzzle phase (Ace Attorney and Golden Idol inspired, 3–4 decisions)
+- Dual reward design: persistent cookware vs. temporary spice
+- Light world consequence through ambient narrative flags
+
+```
+Card Play (Cooking Phase)
+    ↓
+Narrative Puzzle (Dialogue Phase)
+    ↓
+Reward & Consequence (Synthesis Phase, optional)
+    ↓
+Preparation (Next Customer / Chapter)
+    ↓
+Repeat
+```
