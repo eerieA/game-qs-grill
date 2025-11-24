@@ -239,6 +239,8 @@ Win ≥2 rounds → Narrative Phase
 * Short stories every encounter increase pacing quality
 * Structure is modular and easily extendable
 
+Also it did feel better in second playtest on paper (20251123).
+
 ---
 
 # 8. Future Extensions

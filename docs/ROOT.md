@@ -166,3 +166,5 @@ Preparation (Next Customer / Chapter)
     ↓
 Repeat
 ```
+
+There may be an overarching main story connecting different characters' short stories. Not sure if for a first game that would be too ambitious.
