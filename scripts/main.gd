@@ -1,7 +1,6 @@
 extends Node3D
 
 @onready var deck = Deck.new()
-@onready var evaluator = HandEvaluator.new()
 @onready var hand_anchor = $HandAnchor
 
 @export var card3d_scene: PackedScene
@@ -18,11 +17,12 @@ func _ready():
 	deck.shuffle_deck()
 
 	current_hand = deck.draw(5)
+	var context = HandContext.new(current_hand)
 	print("--- Your hand ---")
 	for c in current_hand:
 		print("%s of %s" % [c.rank, c.suit])
 
-	var result = evaluator.evaluate_hand(current_hand)
+	var result = RuleEvaluator.evaluate_hand(context)
 	print("--- Result ---")
 	print(result)
 

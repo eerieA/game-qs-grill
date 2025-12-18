@@ -1,0 +1,17 @@
+{
+  "id": "pair",
+  "name": "Pair",
+  "description": "At least one pair",
+  "enabled": true,
+  "priority": 10,
+  "exclusive": false,
+  "base_score": 10,
+  "multiplier": 1.2,
+  "condition": {
+    "type": "count_rank",
+    "count": 2
+  },
+  "tags": [
+    "basic"
+  ]
+}

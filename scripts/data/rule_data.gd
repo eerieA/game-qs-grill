@@ -1,0 +1,19 @@
+extends Resource
+class_name Rule
+
+@export var id: String = ""
+@export var name: String = ""
+@export var description: String = ""
+
+@export var enabled: bool = true
+@export var priority: int = 0
+@export var exclusive: bool = false
+
+@export var base_score: int = 0
+@export var multiplier: float = 1.0
+
+# Condition data (e.g. {"hand": "flush", "min_rank": 10})
+@export var condition: Variant = {}
+
+# Tags for rule grouping / querying
+@export var tags: Array[String] = []
