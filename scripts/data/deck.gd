@@ -1,7 +1,7 @@
 extends Node
 class_name Deck
 
-const SUITS = ["hearts", "diamonds", "clubs", "spades"]
+const SUITS = ["♥", "♦", "♣", "♠"]
 const RANKS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]  # 11=J, 12=Q, 13=K, 14=A
 
 var cards: Array[CardData] = []

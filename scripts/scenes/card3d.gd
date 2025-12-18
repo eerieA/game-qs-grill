@@ -21,5 +21,5 @@ func update_visual():
 
 # Public helper to rotate the card around an alt pivot
 func set_rotation_y(angle: float):
-	print("Children of Card3D:", get_child_count(), get_child(0).name)
+	# print("Children of Card3D:", get_child_count(), get_child(0).name)
 	rot_pivot.rotation_degrees.y = angle
