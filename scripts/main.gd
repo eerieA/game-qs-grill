@@ -16,7 +16,9 @@ func _ready():
 	deck.generate_deck()
 	deck.shuffle_deck()
 
-	current_hand = deck.draw(5)
+	# current_hand = deck.draw(5)				# draw a random hand
+	# current_hand = deck.draw_test_flush()	# draw a fixed test flush hand
+	current_hand = deck.draw_test_pair()	# draw a fixed test single pair hand
 	var context = HandContext.new(current_hand)
 	print("--- Your hand ---")
 	for c in current_hand:

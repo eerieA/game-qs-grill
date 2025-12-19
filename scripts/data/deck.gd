@@ -33,3 +33,31 @@ func draw(n: int) -> Array[CardData]:
 			break
 		drawn.append(cards.pop_back())
 	return drawn
+
+
+func draw_test_flush() -> Array[CardData]:
+	var drawn: Array[CardData] = []
+	var suit := "♠"  # fixed suit for flush test
+	var ranks := [2, 5, 7, 9, 13]
+
+	for r in ranks:
+		var c := CardData.new()
+		c.suit = suit
+		c.rank = r
+		drawn.append(c)
+
+	return drawn
+
+
+func draw_test_pair() -> Array[CardData]:
+	var drawn: Array[CardData] = []
+	var suits := ["♥", "♦", "♣", "♠", "♠"]
+	var ranks := [7, 5, 7, 9, 13]
+
+	for i in range(5):
+		var c := CardData.new()
+		c.suit = suits[i]
+		c.rank = ranks[i]
+		drawn.append(c)
+
+	return drawn

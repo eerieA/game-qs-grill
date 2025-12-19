@@ -1,0 +1,17 @@
+{
+  "id": "flush",
+  "name": "Flush",
+  "description": "Five cards of the same suit",
+  "enabled": true,
+  "priority": 50,
+  "exclusive": true,
+  "base_score": 40,
+  "multiplier": 2,
+  "condition": {
+    "type": "is_flush",
+    "count": 5
+  },
+  "tags": [
+    "poker"
+  ]
+}
