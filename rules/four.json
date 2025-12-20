@@ -1,0 +1,17 @@
+{
+  "id": "three",
+  "name": "Four of a kind",
+  "description": "Have four cards of the same rank",
+  "enabled": true,
+  "priority": 20,
+  "exclusive": false,
+  "base_score": 16,
+  "multiplier": 1.6,
+  "condition": {
+    "type": "count_rank",
+    "count": 4
+  },
+  "tags": [
+    "basic"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "three",
+  "name": "Three of a kind",
+  "description": "Have three cards of the same rank",
+  "enabled": true,
+  "priority": 15,
+  "exclusive": false,
+  "base_score": 15,
+  "multiplier": 1.5,
+  "condition": {
+    "type": "count_rank",
+    "count": 3
+  },
+  "tags": [
+    "basic"
+  ]
+}

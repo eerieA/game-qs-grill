@@ -96,7 +96,7 @@ func evaluate_hand(context: HandContext) -> Dictionary:
 		var score := float(base) * mult
 
 		matches.append({
-			"rule": r,
+			"rule": r.name,
 			"info": result,
 			"score": score
 		})
