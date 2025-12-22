@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Rule" load_steps=4 format=3 uid="uid://8f6bbnqpqbwr"]
+
+[ext_resource type="Script" uid="uid://jjbaitvvgx5b" path="res://scripts/data/rule_cond/is_flush.gd" id="1_e53jy"]
+[ext_resource type="Script" uid="uid://b5tsovkfg2caa" path="res://scripts/data/rule_data.gd" id="2_lb1jw"]
+
+[sub_resource type="Resource" id="Resource_y2c27"]
+script = ExtResource("1_e53jy")
+metadata/_custom_type_script = "uid://jjbaitvvgx5b"
+
+[resource]
+script = ExtResource("2_lb1jw")
+id = "flush"
+name = "Flush"
+description = "Five cards of the same suit"
+priority = 12
+dominance_group = "hand_rank"
+base_score = 40
+multiplier = 2.0
+condition_resource = SubResource("Resource_y2c27")

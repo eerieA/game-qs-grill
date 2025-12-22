@@ -12,8 +12,9 @@ class_name Rule
 @export var base_score: int = 0
 @export var multiplier: float = 1.0
 
-# Condition data (e.g. {"hand": "flush", "min_rank": 10})
-@export var condition: Variant = {}
+# Condition data (e.g. {"hand": "flush", "min_rank": 10}), both Dictionary and RuleConditionBase acceptable for now
+@export var condition: Dictionary
+@export var condition_resource: RuleConditionBase
 
 # Tags for rule grouping / querying
 @export var tags: Array[String] = []

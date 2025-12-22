@@ -87,7 +87,15 @@ func evaluate_hand(context: HandContext) -> Dictionary:
 		if not r.enabled:
 			continue
 
-		var result := _evaluate_condition(r.condition, context)
+		var result: Dictionary
+
+		if r.condition_resource != null:
+			# New typed condition path
+			result = r.condition_resource.evaluate(context)
+		else:
+			# Legacy dictionary path
+			result = _evaluate_condition(r.condition, context)
+
 		if not result.get("matched", false):
 			continue
 
