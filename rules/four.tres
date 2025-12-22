@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Rule" load_steps=4 format=3 uid="uid://bmy8fua2nncw6"]
+
+[ext_resource type="Script" uid="uid://bhig6fvq660te" path="res://scripts/data/rule_cond/count_rank.gd" id="1_oor27"]
+[ext_resource type="Script" uid="uid://b5tsovkfg2caa" path="res://scripts/data/rule_data.gd" id="2_0b6r2"]
+
+[sub_resource type="Resource" id="Resource_hgld4"]
+script = ExtResource("1_oor27")
+count = 4
+metadata/_custom_type_script = "uid://bhig6fvq660te"
+
+[resource]
+script = ExtResource("2_0b6r2")
+id = "four"
+name = "Four of a kind"
+description = "At least four cards of the same rank"
+priority = 20
+dominance_group = "rank_multiplicity"
+base_score = 20
+multiplier = 1.8
+condition_resource = SubResource("Resource_hgld4")
+metadata/_custom_type_script = "uid://b5tsovkfg2caa"

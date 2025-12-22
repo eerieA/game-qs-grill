@@ -49,6 +49,9 @@ func load_rules(path: String) -> void:
 
 	dir.list_dir_end()
 
+	for r in rules:
+		print("[DEBUG] RULE LOADED:", r.id, ", priority=", r.priority, ", group=", r.dominance_group, ", enabled=", r.enabled, ", source=", r if r.has_method("get_path") else "resource")
+
 	rules.sort_custom(Callable(self, "_sort_rules"))
 
 
@@ -103,6 +106,10 @@ func evaluate_hand(context: HandContext) -> Dictionary:
 			"rule": r,
 			"info": result
 		})
+
+	for m in raw_matches:
+		var rr: Rule = m["rule"]
+		print("[DEBUG] MATCHED:", rr.id, ", priority=", rr.priority, ", group=", rr.dominance_group, ", info=", m["info"])
 
 	# Resolve dominance groups
 	var resolved: Array[Dictionary] = []
