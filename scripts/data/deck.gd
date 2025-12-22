@@ -14,11 +14,12 @@ func _ready():
 
 func generate_deck():
 	cards.clear()
+	# optional: reserve for a little speed
+	cards.resize(0)
 	for suit in SUITS:
 		for rank in RANKS:
-			var c = CardData.new()
-			c.suit = suit
-			c.rank = rank
+			# Use the factory so rank normalization happens in one place
+			var c := CardData.make(rank, suit)
 			cards.append(c)
 
 
@@ -34,17 +35,18 @@ func draw(n: int) -> Array[CardData]:
 		drawn.append(cards.pop_back())
 	return drawn
 
+# ----------------------
+# Test hand helpers (use the factory)
+# ----------------------
+
 
 func draw_test_flush() -> Array[CardData]:
 	var drawn: Array[CardData] = []
 	var suit := "♠"  # fixed suit for flush test
-	var ranks := [2, 5, 7, 9, 9]
+	var ranks := [2, 5, 7, 9, 13]  # distinct ranks preferred
 
 	for r in ranks:
-		var c := CardData.new()
-		c.suit = suit
-		c.rank = r
-		drawn.append(c)
+		drawn.append(CardData.make(r, suit))
 
 	return drawn
 
@@ -52,13 +54,10 @@ func draw_test_flush() -> Array[CardData]:
 func draw_test_pair() -> Array[CardData]:
 	var drawn: Array[CardData] = []
 	var suits := ["♥", "♦", "♣", "♠", "♠"]
-	var ranks := [7, 5, 7, 9, 13]
+	var ranks := [7, 5, 7, 9, "A"]
 
 	for i in range(5):
-		var c := CardData.new()
-		c.suit = suits[i]
-		c.rank = ranks[i]
-		drawn.append(c)
+		drawn.append(CardData.make(ranks[i], suits[i]))
 
 	return drawn
 
@@ -69,10 +68,7 @@ func draw_test_three() -> Array[CardData]:
 	var ranks := [6, 5, 6, 6, 13]
 
 	for i in range(5):
-		var c := CardData.new()
-		c.suit = suits[i]
-		c.rank = ranks[i]
-		drawn.append(c)
+		drawn.append(CardData.make(ranks[i], suits[i]))
 
 	return drawn
 
@@ -83,10 +79,7 @@ func draw_test_four() -> Array[CardData]:
 	var ranks := [6, 5, 6, 6, 6]
 
 	for i in range(5):
-		var c := CardData.new()
-		c.suit = suits[i]
-		c.rank = ranks[i]
-		drawn.append(c)
+		drawn.append(CardData.make(ranks[i], suits[i]))
 
 	return drawn
 
@@ -97,9 +90,17 @@ func draw_test_straight() -> Array[CardData]:
 	var ranks := [4, 7, 6, 5, 8]
 
 	for i in range(5):
-		var c := CardData.new()
-		c.suit = suits[i]
-		c.rank = ranks[i]
-		drawn.append(c)
+		drawn.append(CardData.make(ranks[i], suits[i]))
+
+	return drawn
+
+
+func draw_test_straight_flush() -> Array[CardData]:
+	var drawn: Array[CardData] = []
+	var suits := ["♥", "♥", "♥", "♥", "♥"]
+	var ranks := [4, 7, 6, 5, 8]
+
+	for i in range(5):
+		drawn.append(CardData.make(ranks[i], suits[i]))
 
 	return drawn

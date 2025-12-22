@@ -16,7 +16,7 @@ func _ready():
 func update_visual():
 	if not card_data:
 		return
-	label.text = "%s%s" % [card_data.rank, card_data.suit]
+	label.text = "%s%s" % [card_data.rank_as_string(), card_data.suit]
 
 
 # Public helper to rotate the card around an alt pivot
