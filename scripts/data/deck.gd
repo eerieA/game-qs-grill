@@ -89,3 +89,17 @@ func draw_test_four() -> Array[CardData]:
 		drawn.append(c)
 
 	return drawn
+
+
+func draw_test_straight() -> Array[CardData]:
+	var drawn: Array[CardData] = []
+	var suits := ["♥", "♦", "♣", "♠", "♠"]
+	var ranks := [4, 7, 6, 5, 8]
+
+	for i in range(5):
+		var c := CardData.new()
+		c.suit = suits[i]
+		c.rank = ranks[i]
+		drawn.append(c)
+
+	return drawn
