@@ -59,10 +59,10 @@ func _rule_from_dict(data: Dictionary, fallback_id: String) -> Rule:
 	r.description = data.get("description", "")
 	r.enabled = bool(data.get("enabled", true))
 	r.priority = int(data.get("priority", 0))
-	r.exclusive = bool(data.get("exclusive", false))
 	r.base_score = int(data.get("base_score", 0))
 	r.multiplier = float(data.get("multiplier", 1.0))
 	r.condition = data.get("condition", { })
+	r.dominance_group = str(data.get("dominance_group", ""))
 	r.tags.clear()
 	for t in data.get("tags", []):
 		r.tags.append(str(t))
@@ -80,9 +80,9 @@ func _sort_rules(a: Rule, b: Rule) -> bool:
 
 
 func evaluate_hand(context: HandContext) -> Dictionary:
-	var matches: Array[Dictionary] = []
-	var total: float = 0.0
+	var raw_matches: Array[Dictionary] = []
 
+	# Detect all matching rules
 	for r in rules:
 		if not r.enabled:
 			continue
@@ -91,20 +91,51 @@ func evaluate_hand(context: HandContext) -> Dictionary:
 		if not result.get("matched", false):
 			continue
 
-		var base := int(result.get("base_score", r.base_score))
-		var mult := float(result.get("multiplier", r.multiplier))
+		raw_matches.append({
+			"rule": r,
+			"info": result
+		})
+
+	# Resolve dominance groups
+	var resolved: Array[Dictionary] = []
+	var by_group := { }  # group_name -> match dict
+
+	for m in raw_matches:
+		var r: Rule = m["rule"]
+		var g: String = r.dominance_group
+
+		if g == "":
+			# No dominance group → always applies
+			resolved.append(m)
+		else:
+			# Keep only highest-priority rule per group
+			if not by_group.has(g) or r.priority > by_group[g]["rule"].priority:
+				by_group[g] = m
+
+	for m in by_group.values():
+		resolved.append(m)
+
+	# Compute scores
+	var total := 0.0
+	var matches: Array[Dictionary] = []
+
+	for m in resolved:
+		var r: Rule = m["rule"]
+		var info: Dictionary = m["info"]
+
+		var base := int(info.get("base_score", r.base_score))
+		var mult := float(info.get("multiplier", r.multiplier))
 		var score := float(base) * mult
 
 		matches.append({
-			"rule": r.name,
-			"info": result,
+			"rule_id": r.id,
+			"rule_name": r.name,
+			"group": r.dominance_group,
+			"info": info,
 			"score": score
 		})
 
 		total += score
-
-		if r.exclusive:
-			break
 
 	return {
 		"matches": matches,

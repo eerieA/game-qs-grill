@@ -4,7 +4,7 @@
   "description": "Have five cards of consequtive ranks",
   "enabled": true,
   "priority": 15,
-  "exclusive": true,
+  "dominance_group": "",
   "base_score": 15,
   "multiplier": 2,
   "condition": {

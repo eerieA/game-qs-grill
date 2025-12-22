@@ -4,7 +4,7 @@
   "description": "Have three cards of the same rank",
   "enabled": true,
   "priority": 15,
-  "exclusive": false,
+  "dominance_group": "rank_multiplicity",
   "base_score": 15,
   "multiplier": 1.5,
   "condition": {

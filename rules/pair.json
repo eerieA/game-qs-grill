@@ -4,7 +4,7 @@
   "description": "At least one pair",
   "enabled": true,
   "priority": 10,
-  "exclusive": false,
+  "dominance_group": "rank_multiplicity",
   "base_score": 10,
   "multiplier": 1.2,
   "condition": {

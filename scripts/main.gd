@@ -20,8 +20,8 @@ func _ready():
 	# current_hand = deck.draw_test_flush()	# draw a fixed test flush hand
 	# current_hand = deck.draw_test_pair()	# draw a fixed test single pair hand
 	# current_hand = deck.draw_test_three()	# draw a fixed test three-of-a-kind hand
-	# current_hand = deck.draw_test_four()	# draw a fixed test four-of-a-kind hand
-	current_hand = deck.draw_test_straight()	# draw a fixed test straight hand
+	current_hand = deck.draw_test_four()	# draw a fixed test four-of-a-kind hand
+	# current_hand = deck.draw_test_straight()	# draw a fixed test straight hand
 	
 	var context = HandContext.new(current_hand)
 	print("--- Your hand ---")

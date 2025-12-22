@@ -7,7 +7,7 @@ class_name Rule
 
 @export var enabled: bool = true
 @export var priority: int = 0
-@export var exclusive: bool = false
+@export var dominance_group: String = ""
 
 @export var base_score: int = 0
 @export var multiplier: float = 1.0

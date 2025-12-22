@@ -4,7 +4,7 @@
   "description": "Five cards of the same suit",
   "enabled": true,
   "priority": 50,
-  "exclusive": true,
+  "dominance_group": "",
   "base_score": 40,
   "multiplier": 2,
   "condition": {
