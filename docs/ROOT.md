@@ -4,10 +4,10 @@
 
 - [Toy prototype that is a Balatro-like](#toy-prototype-that-is-a-balatro-like)
     - [Temprory name](#temprory-name)
-        - [Rationale](#rationale)
-            - [1. The Core Vibe: Confident Absurdity](#1-the-core-vibe-confident-absurdity)
+        - [Rationale of the Name](#rationale-of-the-name)
+            - [1. The Core Vibe: Strategic, Scifi and Comedic](#1-the-core-vibe-strategic-scifi-and-comedic)
             - [2. The Rhythm and Length: A Folksy, Nerdy Tall Tale](#2-the-rhythm-and-length-a-folksy-nerdy-tall-tale)
-            - [3. Deconstruction of the Name](#3-deconstruction-of-the-name)
+            - [3. Components of the Name](#3-components-of-the-name)
     - [Rough core game idea](#rough-core-game-idea)
 
 <!-- /TOC -->
@@ -22,44 +22,48 @@ Below is the full form tempory name and the rationale behind it.
 
 So it can be shortened to be `PhQSLEG`, which can be pronounced like "fix leg". But most in-game characters just call it "Phineas's", especially regulars.
 
-### Rationale
+### Rationale of the Name
 
-#### 1. The Core Vibe: Confident Absurdity
+#### 1. The Core Vibe: Strategic, Scifi and Comedic
 
-The primary goal of the name is to encapsulate the game's core tone: a gameplay loop that is strategically deep and intelligent, presented within a universe that is charmingly goofy, casual, and doesn't take itself too seriously. The name is designed to be a "welcome mat" that filters for players who will appreciate this blend of sci-fi and comedic weirdness.
+The name is set to reflect the scifi narrative genre, stratetic depth and evoke comedic tone. Narratively, the background world is a charmingly goofy fictional universe with space opera type of setting. We want the narrative to be humorous so as to:
+ - attract more casual players from the onset;
+ - compensate for some moderately complex strategic gameplay.
+
+This is why the name has a nerdy and goofy vibe.
 
 #### 2. The Rhythm and Length: A Folksy, Nerdy Tall Tale
 
-The name is deliberately long (6 words). This is not a bug. Its length rejects modern, minimalist naming conventions and instead embraces the feel of a rambling, folksy business title from a bygone era. It has a natural, bouncy rhythm that makes it memorable and fun to say:
+The name is deliberately long. We want it to be humorous already from its length: using more words to express a sense of "less serious", because in common sense concise names tend to sound more philosophical or serious, like Of Rice And Men, Wuthering Heights. We then want it to remind people of some folksy business title in old times, with a bouncy rhythm:
 
 **(Phineas's) (Quasi-Stellar Lu'Xodo) (Emporium & Grill)**
 
 > Luxodo is pronouced with more emphasize on the second syllable.
 
-This structure makes it sound a bit like the name of a real, quirky place you could visit - the kind of place a space-faring rogue would tell you about in a grimy cantina.
+This structure makes it sound a bit like the name of a real, quirky place one could visit in a 19th-cross-29th century retro future, the kind of place a space-faring rogue in such an era would tell you about in a grimy cantina.
 
-#### 3. Deconstruction of the Name
+#### 3. Components of the Name
 
-Each component of the name is carefully chosen to contribute to the overall effect through contrast and reference.
+Each component of the name is chosen to contribute to the overall vibe through contrast and reference.
 
 *   **"Phineas's": The Genius Showman**  
     This name operates on two layers.
-    *   **The Surface Layer (P.T. Barnum):** "Phineas" immediately evokes Phineas Taylor (P.T.) Barnum, the legendary 19th-century showman. This sets the stage for an "Emporium" run by a charismatic, perhaps untrustworthy, huckster - a master of spectacle and chicanery.
-    *   **The Deeper Layer (Richard Feynman):** The Barnum reference is a clever mask for a nod to Richard Feynman, the Nobel Prize-winning physicist. Feynman was renowned not just for his genius, but for his playful, mischievous, and anti-authoritarian spirit. He was, IMHO, **the P.T. Barnum of theoretical physics** - a showman whose product was brilliant, complex truth. This name suggests the proprietor is a secret genius who presents himself as a simple trickster, perfectly mirroring a game that is much deeper than its goofy exterior suggests.
+    *   **P.T. Barnum:** "Phineas" immediately evokes Phineas Taylor (P.T.) Barnum, the legendary 19th-century showman. This sets the stage for an "Emporium" run by a charismatic, sometimes untrustworthy, huckster - a master of spectacle and chicanery. This also implies that we think it is ok to use tricks if the final outcome is beneficial.
+    *   **Richard Feynman:** The Barnum reference is a very distant nod to Richard Feynman, who was renowned for both his academic achievements, and his playful, mischievous, anti-authoritarian spirit. We (the authors of this game) see him as **the P.T. Barnum of theoretical physics** - a showman whose product was brilliant, complex truth. Showmanship is a neutral tool for presenting some products made or being sold by the showmen, and cares about the audience's reception much more than the product. This game will use lots of science terms, so it is befitting to use a scienc-y reference.
 
-*   **"Quasi-Stellar": The Cosmic Grandeur**  
-    This is the "sci-fi" anchor of the name. A "Quasi-Stellar Object" (Quasar) is an extremely luminous and powerful celestial body.
+*   **"Quasi-Stellar": The Scifi Anchor**  
+    A "Quasi-Stellar Object" (Quasar) is an extremely luminous and powerful celestial body. Fits the space opera background.
 
 *   **"Luxodo": The Failed Grandeur**  
-    "Luxodo" is a deliberately crafted piece of the puzzle. It’s a made-up word that transparently signals a clumsy attempt at luxury and class.
-    *   The **"Lux-"** root immediately brings "luxury" to mind.
+    "Luxodo" is a deliberately made up word that transparently signals a clumsy attempt at luxury and class.
+    *   The **"Lux-"** root brings "luxury" to mind.
     *   The **"-odo"** suffix has a vague, cheap-sounding flair, reminiscent of "Tuxedo" or a faux-European branding attempt.
-    This word is funny precisely because it's trying so hard to sound impressive and failing. It perfectly characterizes the owner as someone with big dreams but perhaps questionable taste, reinforcing the lovable, underdog nature of the establishment.
+    This word is trying so hard to sound impressive, but is also obviously failing. It signifies a lovable, underdog nature of the establishment. Is it made so on purpose by the owner of this place? We will see.
 
 *   **"Emporium & Grill": The Final Punchline**  
-    This is the core comedic contrast that brings the whole name together.
+    Intended to be the crescendo comedic contrast that brings the whole name together.
     *   **"Emporium"** follows through on the promise of "Quasi-Stellar Luxodo" - a large, fancy establishment offering a wide variety of fine goods.
-    *   **"& Grill"** immediately and hilariously punctures that pretension. It grounds the entire cosmic, luxurious enterprise in the humble, greasy-spoon reality of a diner. This collision promises a world where you can gamble with the fate of star systems, but also order a burger and fries. It is the ultimate expression of the game's high-concept, low-brow personality.
+    *   **"& Grill"** punctures that pretension. It infuses the humble, greasy-spoon reality of a diner right after the previous image of an emporium. Imagine a customer was picturing gambling in a luxrious surrounding with the fate of star systems, but was quickly surprised by a burger and fries combo served on a tin plate with dubious scratches.
 
 ## Rough core game idea
 
