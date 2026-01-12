@@ -67,7 +67,7 @@ Each component of the name is chosen to contribute to the overall vibe through c
 
 ## Rough core game idea
 
-Felt like the galactic menu builder and life coach idea is easier. So there is a FP + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
+This is a galactic menu builder and life coach simulation. Mechanics are Balatro-like mixed with Strange Antiquities and Famicon Detective Club. There is a FP + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
 
 - Card-based “cooking” gameplay (Balatro-style combo system), gives money and narrative clues (clue fragments)
 - Short narrative puzzle phase (Ace Attorney and Golden Idol inspired, 3–4 decisions)

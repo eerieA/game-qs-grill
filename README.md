@@ -1,18 +1,18 @@
 # Toy prototype that is a Balatro-like
 
-Toy prototype that is a Balatro-like. With very similar systems, but adding some different flavor. Overalll would have a goofy scifi vibe.
+Toy prototype that is a Balatro-like. With very similar systems, but adding some different flavor. Overall would have a goofy scifi vibe.
 
 `Phineas's Quasi-Stellar Luxodo Emporium & Grill`.
 
-Currently set in the Nexarion universe I imagined.
+Currently set in the [Nexarion](https://github.com/eerieA/game-nexarion) universe I imagined.
 
 # Docs
 
-Hi level notes: [ROOT.md](./docs/ROOT.md).
+Overview of game vibe: [ROOT.md](./docs/README.md).
 
 Core game loop: [core-loop.md](./docs/design/core-loop.md)
 
-Other design docs under: [./docs/design/](./docs/design/)
+Other design docs: [./docs/design/](./docs/design/)
 
 Two on-paper iterative playtests:
 
