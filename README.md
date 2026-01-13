@@ -16,7 +16,7 @@
 
 Toy prototype that is a Balatro-like. With very similar systems, but adding some different flavor. Overalll would have a goofy scifi vibe.
 
-Below is the full form tempory name and the rationale behind it.
+Below is some summaries on various aspects of this project. For more documents, go to the Github Pages of this repo at https://eeriea.github.io/game-qs-grill/ .
 
 ## Narrative: the name (temporary)
 
