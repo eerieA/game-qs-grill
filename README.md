@@ -11,6 +11,7 @@
     - [Design: rough core game loop](#design-rough-core-game-loop)
     - [Art: direction](#art-direction)
     - [Engineering](#engineering)
+    - [Licensing & Rights](#licensing--rights)
 
 <!-- /TOC -->
 
@@ -101,3 +102,16 @@ TBD
 This project uses Godot. Common architecture systemic design principles and patterns are applied.
 
 I am pretty sure whoever reads this markdown does not care about any engineering details.
+
+## Licensing & Rights
+
+- **Narrative content (story, lore, writing):**  
+  Licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)** unless otherwise noted.
+
+- **Art assets (visuals, audio, UI, etc.):**  
+  Intended to be released under **Creative Commons** licenses. Final license details will be specified once assets exist.
+
+- **Game code and executable builds:**  
+  All rights reserved. The source code and compiled game may not be redistributed, sold, or used to create derivative commercial products without explicit permission.
+
+This repository contains early-stage work-in-progress material. Licensing terms may be refined as the project matures, but ownership of the finished game as a commercial product is reserved by the author.
