@@ -1,3 +1,6 @@
+---
+title: Narrative Micro-Puzzle Templates
+---
 
 # Narrative Micro-Puzzle Templates
 

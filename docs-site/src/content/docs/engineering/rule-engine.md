@@ -1,3 +1,7 @@
+---
+title: Rule Engine Architectual Decisions
+---
+
 # Rule Engine Architectual Decisions
 
 This document records several core architectural decisions made during the construction of the rule evaluation system. The intent is to clarify *why* these decisions were made, what problems they solve, and how they fit together, so that future changes remain coherent and deliberate.

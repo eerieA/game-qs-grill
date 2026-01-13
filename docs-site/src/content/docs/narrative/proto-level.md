@@ -1,3 +1,7 @@
+---
+title: Prototype level narrative texts
+---
+
 # Prototype level narrative texts
 
 Was used in playtest 20251123. I made some polishing when transcribing it into this doc.

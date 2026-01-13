@@ -1,3 +1,7 @@
+---
+title: Core Loop
+---
+
 # 1. Overview
 
 Phineas’s Quasi-Stellar Luxodo Emporium & Grill is a sci-fi cooking/strategy deck challenge game inspired by **Balatro**, combined with light narrative deduction puzzles and branching character arcs inspired by **Golden Idols** franchise and **Citizen Sleeper**.
