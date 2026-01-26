@@ -4,6 +4,10 @@ class_name AndCondition
 @export var conditions: Array[RuleConditionBase] = []
 
 
+func _init():
+    type = "and"
+
+
 func evaluate(context: HandContext) -> Dictionary:
     if conditions.is_empty():
         # Vacuously true
