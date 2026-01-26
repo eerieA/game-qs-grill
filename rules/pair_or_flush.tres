@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="Rule" load_steps=9 format=3 uid="uid://bmbsy1ka5o34f"]
+
+[ext_resource type="Script" uid="uid://b3bhf23x0lpao" path="res://scripts/data/rule_cond/base.gd" id="1_qr4jm"]
+[ext_resource type="Script" uid="uid://bhig6fvq660te" path="res://scripts/data/rule_cond/count_rank.gd" id="2_owdk3"]
+[ext_resource type="Script" uid="uid://jjbaitvvgx5b" path="res://scripts/data/rule_cond/is_flush.gd" id="3_blas4"]
+[ext_resource type="Script" uid="uid://cw64ynx8ksvvw" path="res://scripts/data/rule_cond/or_condition.gd" id="4_1c12i"]
+[ext_resource type="Script" uid="uid://b5tsovkfg2caa" path="res://scripts/data/rule_data.gd" id="5_0yufy"]
+
+[sub_resource type="Resource" id="Resource_uwflt"]
+script = ExtResource("2_owdk3")
+metadata/_custom_type_script = "uid://bhig6fvq660te"
+
+[sub_resource type="Resource" id="Resource_v1fun"]
+script = ExtResource("3_blas4")
+metadata/_custom_type_script = "uid://jjbaitvvgx5b"
+
+[sub_resource type="Resource" id="Resource_djisy"]
+script = ExtResource("4_1c12i")
+conditions = Array[ExtResource("1_qr4jm")]([SubResource("Resource_uwflt"), SubResource("Resource_v1fun")])
+metadata/_custom_type_script = "uid://cw64ynx8ksvvw"
+
+[resource]
+script = ExtResource("5_0yufy")
+id = "pair_or_flush"
+name = "Pair or flush"
+priority = 1
+base_score = 5
+condition_resource = SubResource("Resource_djisy")
+metadata/_custom_type_script = "uid://b5tsovkfg2caa"

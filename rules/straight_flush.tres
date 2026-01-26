@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="Rule" load_steps=9 format=3 uid="uid://bpwdrimlhkfay"]
+
+[ext_resource type="Script" uid="uid://b5tsovkfg2caa" path="res://scripts/data/rule_data.gd" id="1_2cxxd"]
+[ext_resource type="Script" uid="uid://b3bhf23x0lpao" path="res://scripts/data/rule_cond/base.gd" id="1_gnlm8"]
+[ext_resource type="Script" uid="uid://bv8mjtfv8wp2m" path="res://scripts/data/rule_cond/and_condition.gd" id="2_3voen"]
+[ext_resource type="Script" uid="uid://cb18cqfuewmcv" path="res://scripts/data/rule_cond/sequence.gd" id="2_s6j5d"]
+[ext_resource type="Script" uid="uid://jjbaitvvgx5b" path="res://scripts/data/rule_cond/is_flush.gd" id="3_lig3o"]
+
+[sub_resource type="Resource" id="Resource_bmxnf"]
+script = ExtResource("2_s6j5d")
+metadata/_custom_type_script = "uid://cb18cqfuewmcv"
+
+[sub_resource type="Resource" id="Resource_44k0g"]
+script = ExtResource("3_lig3o")
+metadata/_custom_type_script = "uid://jjbaitvvgx5b"
+
+[sub_resource type="Resource" id="Resource_s6j5d"]
+script = ExtResource("2_3voen")
+conditions = Array[ExtResource("1_gnlm8")]([SubResource("Resource_bmxnf"), SubResource("Resource_44k0g")])
+metadata/_custom_type_script = "uid://bv8mjtfv8wp2m"
+
+[resource]
+script = ExtResource("1_2cxxd")
+id = "straight_flush"
+name = "Straight flush"
+description = "5 cards of consequtive ranks and same suit"
+priority = 50
+dominance_group = "hand_rank"
+base_score = 50
+multiplier = 2.2
+condition_resource = SubResource("Resource_s6j5d")
+metadata/_custom_type_script = "uid://b5tsovkfg2caa"
