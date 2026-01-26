@@ -25,3 +25,8 @@ func evaluate(context: HandContext) -> Dictionary:
             }
 
     return { "matched": false, "data": { } }
+
+
+func validate() -> void:
+    if conditions.size() < 2:
+        push_error("AndCondition requires at least 2 operands")

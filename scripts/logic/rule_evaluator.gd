@@ -132,5 +132,4 @@ func evaluate_hand(context: HandContext) -> Dictionary:
 
 func _validate_rules() -> void:
 	for r in rules:
-		if r.condition_resource == null:
-			push_error("Rule '%s' is missing a condition_resource" % r.id)
+		r.validate()

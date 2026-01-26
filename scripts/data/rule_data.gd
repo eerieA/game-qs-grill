@@ -17,3 +17,10 @@ class_name Rule
 
 # Tags for rule grouping / querying
 @export var tags: Array[String] = []
+
+
+func validate() -> void:
+    if condition_resource == null:
+        push_error("Rule '%s' has no condition_resource" % id)
+    else:
+        condition_resource.validate()
