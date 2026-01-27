@@ -1,9 +1,11 @@
 extends Node3D
 
-@onready var deck = Deck.new()
-@onready var hand_anchor = $HandAnchor
-
 @export var card3d_scene: PackedScene
+@export var card_draw_count: int = 5
+
+@onready var deck = $Deck  # logic node with deck.gd
+@onready var deck_anchor = $Deck/DeckAnchor  # Node3D used for visuals
+@onready var hand_anchor = $HandAnchor
 
 # These are used to store values passed from the HSlider value change
 var fan_angle_deg: float = 20.0
@@ -13,16 +15,14 @@ var current_hand: Array = []
 
 
 func _ready():
-	deck.generate_deck()
-	deck.shuffle_deck()
-
-	# current_hand = deck.draw(5)				# draw a random hand
-	current_hand = deck.draw_test_flush()	# draw a fixed test flush hand
+	current_hand = deck.draw(card_draw_count)  # draw a random hand
+	# current_hand = deck.draw_test_flush()	# draw a fixed test flush hand
 	# current_hand = deck.draw_test_pair()	# draw a fixed test single pair hand
 	# current_hand = deck.draw_test_three()	# draw a fixed test three-of-a-kind hand
 	# current_hand = deck.draw_test_four()	# draw a fixed test four-of-a-kind hand
 	# current_hand = deck.draw_test_straight()	# draw a fixed test straight hand
-	
+	# current_hand = deck.draw_test_straight_flush()	# draw a fixed test straight + flush hand
+
 	var context = HandContext.new(current_hand)
 	print("--- Your hand ---")
 	for c in current_hand:
