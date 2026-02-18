@@ -39,8 +39,9 @@ max_value = 60.0
 [node name="SpacingSlider" type="HSlider" parent="HandLookDevControls"]
 layout_mode = 2
 tooltip_text = "Spacing of cards"
-max_value = 1.2
+max_value = 2.0
 step = 0.1
+value = 1.0
 
 [node name="Deck" type="Node" parent="."]
 script = ExtResource("3_sugp2")
