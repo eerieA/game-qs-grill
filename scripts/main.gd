@@ -10,7 +10,7 @@ extends Node3D
 @onready var hand_anchor = $HandAnchor
 
 # Preload the DealAnimator script so we don't rely on class_name registration order
-const DealAnimator = preload("res://scripts/deal_animator.gd")
+const DealAnimator = preload("res://scripts/animators/deal_animator.gd")
 
 # These are used to store values passed from the HSlider value change
 var fan_angle_deg: float = 20.0
