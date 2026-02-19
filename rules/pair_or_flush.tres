@@ -24,6 +24,7 @@ script = ExtResource("5_0yufy")
 id = "pair_or_flush"
 name = "Pair or flush"
 priority = 1
+dominance_group = "hand_rank"
 base_score = 5
 condition_resource = SubResource("Resource_djisy")
 metadata/_custom_type_script = "uid://b5tsovkfg2caa"
