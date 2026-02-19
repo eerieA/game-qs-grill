@@ -12,10 +12,12 @@ signal deal_finished()
 # - fan_angle_deg: float total fan angle in degrees
 # - max_duration: float maximum duration for farthest card
 # - finish_stagger: float time between subsequent card finish times
+# - dist_weight: float weighting applied to translation distance when computing duration (default 0.5)
+# - rot_weight: float weighting applied to rotation delta when computing duration (default 0.5)
 #
 # This node will add instantiated cards as children of hand_anchor. It will free itself
 # shortly after the animation finishes.
-func play_deal(hand: Array, card_scene: PackedScene, hand_anchor: Node3D, deck_anchor: Node3D, spacing: float, fan_angle_deg: float, max_duration: float, finish_stagger: float) -> void:
+func play_deal(hand: Array, card_scene: PackedScene, hand_anchor: Node3D, deck_anchor: Node3D, spacing: float, fan_angle_deg: float, max_duration: float, finish_stagger: float, dist_weight: float = 0.5, rot_weight: float = 0.5) -> void:
 	var card_count = hand.size()
 	if card_count == 0:
 		# nothing to do; emit and queue_free
@@ -45,6 +47,14 @@ func play_deal(hand: Array, card_scene: PackedScene, hand_anchor: Node3D, deck_a
 		hand_anchor.add_child(card)
 		card.position = start_local
 
+		# Safely get the rot pivot node from the instantiated card so we can read its starting rotation
+		var rot_pivot_node = null
+		if card.has_node("RotPivot"):
+			rot_pivot_node = card.get_node("RotPivot")
+		var start_rot_deg = 0.0
+		if rot_pivot_node != null:
+			start_rot_deg = rot_pivot_node.rotation_degrees.y
+
 		# Compute target local position & rotation
 		var t = float(i) / (card_count - 1) if card_count > 1 else 0.5
 		var angle = start_angle + t * fan_angle
@@ -55,23 +65,46 @@ func play_deal(hand: Array, card_scene: PackedScene, hand_anchor: Node3D, deck_a
 			"index": i,
 			"card": card,
 			"target_pos": target_pos,
-			"target_rot_deg": target_rot_deg
+			"target_rot_deg": target_rot_deg,
+			"start_rot_deg": start_rot_deg
 		})
 
-	# Compute distance from deck for each entry and a per-card duration
+	# Compute distance from deck for each entry and rotation delta; use both to compute duration
 	var max_dist = 0.0
+	var max_rot = 0.0
 	for e in card_entries:
 		var d = e["target_pos"].distance_to(start_local)
 		e["distance"] = d
 		if d > max_dist:
 			max_dist = d
 
-	# Duration scaling: cards farther from the deck move longer.
-	var min_duration = max(0.02, max_duration)
+		var rot_delta = abs(e["target_rot_deg"] - e.get("start_rot_deg", 0.0))
+		e["rot_delta"] = rot_delta
+		if rot_delta > max_rot:
+			max_rot = rot_delta
+
+	# Duration scaling: combine translation distance and absolute rotation delta.
+	# We allow different weighting for distance vs rotation via dist_weight and rot_weight.
+	var MIN_DURATION_FLOOR = 0.05
+	var min_duration = min(max_duration, MIN_DURATION_FLOOR)
+	# Normalize weights (fallback to equal weights if both are <= 0)
+	var dist_w = dist_weight
+	var rot_w = rot_weight
+	var total_w = dist_w + rot_w
+	if total_w <= 0.0:
+		dist_w = 0.5
+		rot_w = 0.5
+	else:
+		dist_w = dist_w / total_w
+		rot_w = rot_w / total_w
 	for e in card_entries:
-		var frac = 0.0
+		var frac_dist = 0.0
 		if max_dist > 0.0:
-			frac = e["distance"] / max_dist
+			frac_dist = e["distance"] / max_dist
+		var frac_rot = 0.0
+		if max_rot > 0.0:
+			frac_rot = e["rot_delta"] / max_rot
+		var frac = frac_dist * dist_w + frac_rot * rot_w
 		e["duration"] = lerp(min_duration, max_duration, frac)
 
 	# Decide the visual order: leftmost to rightmost (target_pos.x ascending)

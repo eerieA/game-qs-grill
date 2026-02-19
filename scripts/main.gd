@@ -1,9 +1,9 @@
 extends Node3D
 
 @export var card3d_scene: PackedScene
-@export var card_draw_count: int = 5
-@export var deal_duration: float = 0.64
-@export var deal_stagger: float = 0.08 # Should be smaller than deal_duration
+@export var card_draw_count: int = 5	# default value
+@export var deal_duration: float = 0.26	# default value
+@export var deal_stagger: float = 0.08 	# default value, Should be smaller than deal_duration
 
 @onready var deck = $Deck # logic node with deck.gd
 @onready var deck_anchor = $Deck/DeckAnchor # Node3D used for visuals
@@ -50,7 +50,7 @@ func _deal_cards(hand: Array):
 	var animator = DealAnimator.new()
 	add_child(animator)
 	animator.connect("deal_finished", Callable(animator, "queue_free"))
-	animator.play_deal(hand, card3d_scene, hand_anchor, deck_anchor, card_spacing, fan_angle_deg, deal_duration, deal_stagger)
+	animator.play_deal(hand, card3d_scene, hand_anchor, deck_anchor, card_spacing, fan_angle_deg, deal_duration, deal_stagger, 0.7, 0.3)
 
 
 func _display_hand(hand: Array):
