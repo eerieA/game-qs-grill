@@ -93,14 +93,3 @@ func _refresh_hand() -> void:
 	for c in hand_anchor.get_children():
 		c.queue_free()
 	_display_hand(current_hand)
-
-
-# hooks for UI controls
-func _on_fan_angle_changed(value: float) -> void:
-	fan_angle_deg = value
-	_refresh_hand()
-
-
-func _on_spacing_changed(value: float) -> void:
-	card_spacing = value
-	_refresh_hand()
