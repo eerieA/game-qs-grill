@@ -36,22 +36,22 @@ Each component of the name is chosen to contribute to the overall vibe through c
 
 *   **"Phineas'": The Genius Showman**  
     This name operates on two layers.
-    *   **P.T. Barnum:** "Phineas" immediately evokes Phineas Taylor (P.T.) Barnum, the legendary 19th-century showman. This sets the stage for an "Emporium" run by a charismatic, sometimes untrustworthy, huckster - a master of spectacle and chicanery. This also implies that we think it is ok to use tricks if the final outcome is beneficial. Readers might notice reference to and inspirations from the film The Greatest Showman (2017).
-    *   **Richard Feynman:** The Barnum reference is a very distant nod to Richard Feynman, who was renowned for both his academic achievements, and his playful, mischievous, anti-authoritarian spirit. We (the authors of this game) see him as **the P.T. Barnum of theoretical physics** - a showman whose product was brilliant, complex truth. Showmanship is a neutral tool for presenting some products made or being sold by the showmen, and cares about the audience's reception much more than the products. This game will use lots of science terms, so it is befitting to have a science superstar "cameo".
+    *   **P.T. Barnum:** "Phineas" as a reference to Phineas Taylor (P.T.) Barnum, the legendary 19th-century showman. This sets the stage for an "Emporium" run by a charismatic but somewhat untrustworthy huckster. A master of spectacle and chicanery. We all know someone in our lives who think it is ok to use tricks if the final outcome is beneficial. Readers might notice inspirations from the film The Greatest Showman (2017) too.
+    *   **Richard Feynman:** The genius physicist who was renowned for both his academic achievements, and his playful, anti-authoritarian spirit. We here see him as **the P.T. Barnum of theoretical physics** - a showman whose product was brilliant, complex truth. Showmanship is a un-predispositioned tool for presenting products made or being sold by the showmen, and cares about the audience's reception much more than the products. We don't think it is necessarily bad, so why not use it in showing sciences too. This game will use lots of science terms, so it is befitting to have a science superstar "cameo".
 
 *   **"Quasi-Stellar": The Scifi Anchor**  
-    A "Quasi-Stellar Object" (Quasar) is an extremely luminous and powerful celestial body. Fits the space opera background.
+    A "Quasi-Stellar Object" (Quasar) is an extremely luminous and powerful celestial body. Fits the space opera + far future vibe.
 
 *   **"Luxodo": The Failed Grandeur**  
     "Luxodo" is a deliberately made up word that transparently signals a clumsy attempt at luxury and class.
     *   The **"Lux-"** root brings "luxury" to mind.
     *   The **"-odo"** suffix has a vague, cheap-sounding flair, reminiscent of "Tuxedo" or a faux-European branding attempt.
-    This word is trying so hard to sound impressive, but is also obviously failing. It signifies a lovable, underdog nature of the establishment. Is it made so on purpose by the owner of this place? We will see.
+    This word is trying so hard to sound impressive, but is also obviously failing. It is a manefestation of the underdog nature of the establishment. Is it made so on purpose by the owner or just a lack of motivation in naming the place? We will see.
 
 *   **"Emporium & Grill": The Final Punchline**  
     Intended to be the crescendo comedic contrast that brings the whole name together.
-    *   **"Emporium"** follows through on the promise of "Quasi-Stellar Luxodo" - a large, fancy establishment offering a wide variety of fine goods.
-    *   **"& Grill"** punctures that pretension. It infuses the humble, greasy-spoon reality of a diner right after the previous image of an emporium. Imagine a customer was picturing gambling in a luxrious surrounding with the fate of star systems, but was quickly surprised by a burger and fries combo served on a tin plate with dubious scratches.
+    *   **"Emporium"** follows through on the promise of a large, fancy establishment offering a wide variety of fine goods.
+    *   **"& Grill"** punctures that pretension. Now the audience is led to imagine a humble, greasy-spoon diner right after the previous image of an emporium. For example, an in-game customer is expecting classy gambling in a luxrious surrounding betting on the fate of nations, but then quickly interrupted by a burger and fries combo served on a cheap plate by a squeaking robot to the neighboring table (because customers there thinks that is a fancy meal).
 
 ## The Universe
 

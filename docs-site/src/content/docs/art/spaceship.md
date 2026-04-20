@@ -4,8 +4,6 @@ title: Spaceship
 
 There will be only one spaceship, that of Phineas', where the emporium also lives.
 
-# Spaceship
-
 Has functional areas like
 
 - Bridge

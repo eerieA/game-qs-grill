@@ -2,44 +2,40 @@
 title: Core Loop
 ---
 
-# 1. Overview
-
 Phineas’s Quasi-Stellar Luxodo Emporium & Grill is a sci-fi cooking/strategy deck challenge game inspired by **Balatro**, combined with light narrative deduction puzzles and branching character arcs inspired by **Golden Idols** franchise and **Citizen Sleeper**.
 
 * Card-play is the primary element.
-* Narrative micro-puzzles is side element, which is partially optional.
-* Aming to be modular, non-grindy, and provide some player agency in narrative.
-* Builds identity through short, rythmic character episodes and interlocking gameplay systems.
+* Narrative micro-puzzles is side element, which is optional.
+* Aming to be modular, non-grindy, and provide some narrative agency as extra reward.
 
 This document describes the latest design of the core loop.
 
 <!-- TOC -->
 
-- [1. Overview](#1-overview)
-- [2. Core Loop Summary](#2-core-loop-summary)
-- [3. Card Play Phase](#3-card-play-phase)
-    - [3.1 Structure](#31-structure)
-    - [3.2 Objectives](#32-objectives)
-    - [3.3 Rewards from Card Play](#33-rewards-from-card-play)
-- [4. Narrative Puzzle Phase](#4-narrative-puzzle-phase)
-    - [4.1 Tier-1 Puzzle (Mandatory)](#41-tier-1-puzzle-mandatory)
-    - [4.2 Tier-2 Branching Dialogue (Optional)](#42-tier-2-branching-dialogue-optional)
-- [5. Rewards & Progression](#5-rewards--progression)
-    - [5.1 Insights (Persistent Resource)](#51-insights-persistent-resource)
-    - [5.2 Ingredients](#52-ingredients)
-    - [5.3 Cookware Synthesis (Long-Term Goal)](#53-cookware-synthesis-long-term-goal)
-    - [5.4 Story State Tracking](#54-story-state-tracking)
-- [6. Example Encounter (Paper Proto template)](#6-example-encounter-paper-proto-template)
-    - [6.1 Encounter Theme](#61-encounter-theme)
-    - [6.2 Card Play Goals](#62-card-play-goals)
-- [7. Why This Loop might be better than prev](#7-why-this-loop-might-be-better-than-prev)
-- [8. Future Extensions](#8-future-extensions)
+- [Core Loop Summary](#core-loop-summary)
+- [Card Play Phase](#card-play-phase)
+    - [Structure](#structure)
+    - [Objectives](#objectives)
+    - [Rewards from Card Play](#rewards-from-card-play)
+- [Narrative Puzzle Phase (Optional)](#narrative-puzzle-phase-optional)
+    - [Tier-1 Puzzle](#tier-1-puzzle)
+    - [Tier-2 Branching Dialogue](#tier-2-branching-dialogue)
+- [Rewards & Progression](#rewards--progression)
+    - [Insights (Persistent Resource)](#insights-persistent-resource)
+    - [Ingredients](#ingredients)
+    - [Cookware Synthesis (Long-Term Goal)](#cookware-synthesis-long-term-goal)
+    - [Story State Tracking](#story-state-tracking)
+- [Example Encounter (Paper Proto template)](#example-encounter-paper-proto-template)
+    - [Encounter Theme](#encounter-theme)
+    - [Card Play Goals](#card-play-goals)
+- [Why make 3 card rounds and narrative skippable](#why-make-3-card-rounds-and-narrative-skippable)
+- [Future Extensions](#future-extensions)
 
 <!-- /TOC -->
 
 ---
 
-# 2. Core Loop Summary
+## Core Loop Summary
 
 Each Encounter consists of:
 
@@ -68,19 +64,15 @@ Each Encounter consists of:
 
 ---
 
-# 3. Card Play Phase
+## Card Play Phase
 
-## 3.1 Structure
+### Structure
 
-Each encounter contains 3 rounds:
-
-* Round 1: Warm-up difficulty
-* Round 2: Moderate difficulty
-* Round 3: High difficulty
+Each encounter contains 3 rounds: easy, moderate, hard-ish.
 
 Player only needs to win 2 out of 3 to proceed to the narrative phase.
 
-## 3.2 Objectives
+### Objectives
 
 Each round has:
 
@@ -91,7 +83,7 @@ Each round has:
    * E.g. “Play a hand using a ‘Fluid’ tagged item”
    * Completing this grants Clue Fragments
 
-## 3.3 Rewards from Card Play
+### Rewards from Card Play
 
 | Result                      | Reward                          | Notes                                   |
 | --------------------------- | ------------------------------- | --------------------------------------- |
@@ -102,13 +94,9 @@ Each round has:
 
 ---
 
-# 4. Narrative Puzzle Phase
+## Narrative Puzzle Phase (Optional)
 
-Narrative comes in two layers:
-
----
-
-## 4.1 Tier-1 Puzzle (Mandatory)
+### Tier-1 Puzzle
 
 A lightweight, Golden Idol-style deduction puzzle:
 
@@ -124,9 +112,11 @@ Tier-1 always unlocks:
 * Core story advancement
 * Basic Insight rewards
 
+If player skips or does it very badly, there is a default story progression.
+
 ---
 
-## 4.2 Tier-2 Branching Dialogue (Optional)
+### Tier-2 Branching Dialogue
 
 After solving Tier-1, the client asks a key question.
 
@@ -138,14 +128,13 @@ The available choices depend on Clue Fragments:
 | 2              | +1 Hidden choice           | “Good” or “Subtle Success”             |
 | 3              | +2 Hidden choices (pick 1) | “True Ending Shard” for this character |
 
-Tier-2 outcomes do not block progress.
-They simply provide richer story and better rewards.
+If player skips or does it very badly, there is a default ending for a customer.
 
 ---
 
-# 5. Rewards & Progression
+## Rewards & Progression
 
-## 5.1 Insights (Persistent Resource)
+### Insights (Persistent Resource)
 
 Earned through:
 
@@ -159,7 +148,7 @@ Used for:
 * Cloning base ingredients or cards
 * Minor meta-progression upgrades (TBD)
 
-## 5.2 Ingredients
+### Ingredients
 
 Narrative outcomes and card-play bonus goals award ingredients such as:
 
@@ -170,7 +159,7 @@ Narrative outcomes and card-play bonus goals award ingredients such as:
 
 Ingredients are used as components in cookware synthesis.
 
-## 5.3 Cookware Synthesis (Long-Term Goal)
+### Cookware Synthesis (Long-Term Goal)
 
 Players combine:
 
@@ -188,7 +177,7 @@ Players combine:
 Cookware is not craftable during the narrative phase.
 Narrative outputs → feed card play only in the long run.
 
-## 5.4 Story State Tracking
+### Story State Tracking
 
 Each Tier-2 “true ending shard” updates the character’s fate.
 
@@ -200,18 +189,18 @@ Collecting multiple shards across encounters helps:
 
 ---
 
-# 6. Example Encounter (Paper Proto template)
+## Example Encounter (Paper Proto template)
 
 This is the test encounter already playable with pen & paper and Balatro as a stand-in card engine.
 
-## 6.1 Encounter Theme
+### Encounter Theme
 
 Client: Veydrin Diplomat
 Tags: “Fluid”, “Ceremony”, “Geopolitical Tension”
 
 > This has a corresponding playtest on paper. See [20251123.md](../playtests/20251123.md).
 
-## 6.2 Card Play Goals
+### Card Play Goals
 
 Round 1
 
@@ -219,35 +208,24 @@ Round 1
 * Heat Constraint: 1–6
 * Bonus Goal: Play a hand with a “Fluid” tag → +1 Clue Fragment
 
-Round 2
-
-* FP Goal: 3000
-* Heat Constraint: 2–7
-* Bonus Goal: Use a cookware that modifies Heat → +1 Clue Fragment
-
-Round 3
-
-* FP Goal: 3500
-* Heat Constraint: 3–7
-* Bonus Goal: Include at least one pair → +1 Clue Fragment
+Round 2 and round 3 similar but with incremental difficulty numerically.
 
 Win ≥2 rounds → Narrative Phase
 
-# 7. Why This Loop might be better than prev
+## Why make 3 card rounds and narrative skippable
 
 * Card play stays the main attraction
 * Narrative enhances gameplay but remains optional and lightweight
 * Tier-1 guarantees story freshness without blocking progress
 * Tier-2 rewards skillful play with deeper story, not raw power
 * Insights are meta-progression but NOT grindy
-* Short stories every encounter increase pacing quality
 * Structure is modular and easily extendable
 
-Also it did feel better in second playtest on paper (20251123).
+I think it did feel better in second playtest on paper ([20251123](../playtests/20251123.md)).
 
 ---
 
-# 8. Future Extensions
+## Future Extensions
 
 * More client archetypes (scientist, stowaway, relic courier, tide-monk, outlaw botanist)
 * Later encounters with multiple related characters

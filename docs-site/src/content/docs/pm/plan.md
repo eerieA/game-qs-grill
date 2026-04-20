@@ -2,19 +2,14 @@
 title: Rough project timeline plan
 ---
 
-# Rough project timeline plan
-
 <!-- TOC -->
 
-- [Rough project timeline plan](#rough-project-timeline-plan)
-    - [Slice 1 — **Hand Scoring System (Core Loop)**](#slice-1--hand-scoring-system-core-loop)
-        - [Tasks](#tasks)
-    - [Slice 2 — **Joker System (Replayability)**](#slice-2--joker-system-replayability)
-        - [Tasks](#tasks)
-    - [Slice 3 — **Blind & Shop Loop (Progression)**](#slice-3--blind--shop-loop-progression)
-        - [Tasks](#tasks)
-    - [⏱Overall Estimate](#⏱overall-estimate)
-    - [Bonus Tips for Content Creation](#bonus-tips-for-content-creation)
+- [Slice 1 — **Hand Scoring System (Core Loop)**](#slice-1--hand-scoring-system-core-loop)
+    - [Tasks](#tasks)
+- [Slice 2 — **Joker System (Replayability)**](#slice-2--joker-system-replayability)
+    - [Tasks](#tasks)
+- [Slice 3 — **Blind & Shop Loop (Progression)**](#slice-3--blind--shop-loop-progression)
+- [Bonus Tips for Content Creation](#bonus-tips-for-content-creation)
 
 <!-- /TOC -->
 
@@ -63,31 +58,7 @@ title: Rough project timeline plan
 
 **Goal:** Simple roguelike loop — hit target score, earn currency, buy a Joker, repeat.
 
-### Tasks
-
-| Task                     | Notes                                        | Time    |
-| ------------------------ | -------------------------------------------- | ------- |
-| 🎯 Blind system          | Define target score per round.               | 2–3 hrs |
-| 💰 Currency & rewards    | Track earned chips, spend in shop.           | 2–3 hrs |
-| 🏪 Shop UI               | Display 3 Jokers for sale, reroll button.    | 4–5 hrs |
-| 🔄 Round flow controller | Start → play → evaluate → shop → next round. | 4–5 hrs |
-| ✨ Polish / feedback      | Basic transitions, sound, progress bar.      | 3–4 hrs |
-
-**🕒 Total: ≈ 15–20 hours**
-→ 4–6 days part-time.
-🎥 *Devlog idea*: “Turning a card demo into a roguelike loop.”
-
----
-
-## ⏱Overall Estimate
-
-| Slice           | Hours | Rough Calendar |
-| --------------- | ----- | -------------- |
-| 1. Hand Scoring | 18–26 | Week 1         |
-| 2. Jokers       | 13–16 | Week 2         |
-| 3. Shop Loop    | 15–20 | Week 3         |
-
-💡 **3 weeks total** for a polished playable prototype if you keep scope tight.
+**This might be completely removed.**
 
 ---
 

@@ -27,7 +27,17 @@ The game world is a space opera stage, things happen in a fairly explored univer
 
 ## Design: rough core game loop
 
-This is a galactic menu builder and life coach simulation. Mechanics are Balatro-like mixed with Strange Antiquities and Famicon Detective Club. There is a FP + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
+This is a poker game with linear progression, wrapped in a galactic menu builder and life coach simulation skin. Mechanics are Balatro-like poker rules (so just regular poker rules and customizable joker modifiers) mixed with some stories.
+
+Gameplay inspired mainly by:
+
+- Balatro
+- Duck Detective
+- Detective Instinct: Farewell, My Beloved (who was inspired by Famicon Detective Club)
+- The Rise of the Golden Idol
+- Citizen Sleeper
+
+In this game there is a FP + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
 
 - Card-based “cooking” gameplay (Balatro-style combo system), gives money and narrative clues (clue fragments)
 - Short narrative puzzle phase (Ace Attorney and Golden Idol inspired, 3–4 decisions)
@@ -58,7 +68,7 @@ Currrently going for a toon-shading low poly direction. Here is a very rough con
 
 This project uses Godot. Common architecture systemic design principles and patterns are applied.
 
-I am pretty sure whoever reads this markdown does not care about any engineering details.
+I am pretty sure out of the few who actually reads this markdown even fewer would care about any engineering details.
 
 ## Licensing & Rights
 
