@@ -25,6 +25,10 @@ So it can be shortened to be `PhQSLEG`, which can be pronounced like "fix leg". 
 
 The game world is a space opera stage, things happen in a fairly explored universe. Has several very active space races and political powers. The same as the trading game. See https://github.com/eerieA/game-nexarion .
 
+A voice-over sample just to demo the vibe of it (will not go into prod):
+
+[Voice-over sample on SoundCloud](https://soundcloud.com/eeriea/qs-grill-narrative-sample).
+
 ## Design: rough core game loop
 
 This is a poker game with linear progression, wrapped in a galactic menu builder and life coach simulation skin. Mechanics are Balatro-like poker rules (so just regular poker rules and customizable joker modifiers) mixed with some stories.

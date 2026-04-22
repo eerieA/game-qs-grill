@@ -4,15 +4,21 @@ title: Prototype level narrative texts
 
 # Prototype level narrative texts
 
-Was used in playtest 20251123. I made some polishing when transcribing it into this doc.
+Was used in [playtest 20251123](../playtests/20251123.md). I made some polishing when transcribing it into this doc.
 
 ## Card play phase - round 1
 
-The Veydrin diplomat arrives in their race's signature unstable material form: fast and subtly changing shape, shimmering sillouette. She is shifting between 3 probable faces... or is it 4? 5? You cannot tell. But you can tell she is trying to come up with a human-friendly face.
+The Veydrin diplomat arrives in their race's signature unstable material form: subtly bubbling facets, swiftly shimmering sillouette, flip-flopping luminesent swirls. She is shifting between 3 probable faces... or is it 4? 5? You cannot tell. But you can tell she is trying to come up with a human-friendly face. You kind of appreciate that.
 
-She quitely slides into your premium customer's table set. She reaches your sight lines with elegance a bit hollow to the touch.
+She identifies the vip sofa, and then quitely slides onto it. Her sight lines reaches out to yours, with elegance a bit hollow to the touch.
 
-She starts talking. "Honorable owner of the Emporium, it is a pleasure to have your attention upon my needs in this lovely rise." Her biotech translator delivers her words loyally to you - well, as loyal as the interglactic languages and communications act requires - in a calm, worldly human female voice with restrained excitement. "I bear a purpose just like any of your other customers. But for a start, I wonder if you could show me your famed skill of stability?"
+She starts talking. "Honorable owner of the Emporium, it is a pleasure to have your attention upon my needs for this moment." Her biotech translator delivers her words loyally to you - well, as loyal as the Interglactic Languages and Communications Organization requires - in a calm, worldly human female voice with juuuust the right sprinkle of excitement. "As many of your other customers, I visit for the spectacle and promise your establishment has to offer. But personally, I wonder if you could start with showing your famed skill of stability?"
+
+A voice-over sample of this snippet, just to demo the vibe of it (will not go into prod):
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2307125822&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/eeriea" title="eerieA" target="_blank" style="color: #cccccc; text-decoration: none;">eerieA</a> · <a href="https://soundcloud.com/eeriea/qs-grill-narrative-sample" title="qs-grill-narrative-sample" target="_blank" style="color: #cccccc; text-decoration: none;">qs-grill-narrative-sample</a></div>
+
+.
 
 [Card play round 1 starts and finishes.]
 
