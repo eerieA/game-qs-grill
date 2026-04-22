@@ -21,6 +21,10 @@ Now imagine it were developed **not just for the og developer**, then we can gen
 - Needs higher customization on decks (game play toolset).
 - Doesn't strictly need the psychology dynamics in human-vs-human poker to have fun.
 
+I think this pitch line might work:
+
+“A cards game, 2 mins adventures, but every round unlocks fun upgrades that let you break the scoring system.”
+
 ## Player progression
 
 Meta progression common in rogue-like and rogue-lite games. Namely:

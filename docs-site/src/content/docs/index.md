@@ -6,6 +6,7 @@ Design notes, engineering rationale, narrative experiments, and playtest records
 
 These docs are written primarily for other developers.
 
+```
 Directory structure:
 └── docs/
     ├── art/
@@ -33,3 +34,4 @@ Directory structure:
     │   └── plan.md
     └── researches/
         └── balatro-analysis.md
+```

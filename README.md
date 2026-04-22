@@ -32,6 +32,7 @@ This is a poker game with linear progression, wrapped in a galactic menu builder
 Gameplay inspired mainly by:
 
 - [Balatro](https://store.steampowered.com/app/2379780/Balatro/)
+- [Omelet You Cook](https://store.steampowered.com/app/3205380/Omelet_You_Cook/)
 - [Duck Detective](https://store.steampowered.com/app/2637990/Duck_Detective_The_Secret_Salami/)
 - [Detective Instinct: Farewell, My Beloved](https://store.steampowered.com/app/2689930/Detective_Instinct_Farewell_My_Beloved/) (who was inspired by Famicon Detective Club)
 - [The Case of the Golden Idol](https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol/)
@@ -40,9 +41,9 @@ Gameplay inspired mainly by:
 In this game there is a FP (Flavor Points) + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
 
 - Card-based “cooking” gameplay (Balatro-style combo system), gives money and narrative clues (clue fragments)
-- Short narrative puzzle phase (Duck Detective and Golden Idol inspired, fill-in-the-blanks, 3~4 decisions)
-- Rewards: persistent cookware vs. temporary spice
-- Light world consequence through ambient narrative flags
+- Short narrative puzzle phase (Duck Detective and Golden Idol inspired, fill-in-the-blanks puzzles, 3-4 questions, choose from 3-4 options per question)
+- Rewards: persistent cookware (like jokers) vs. temporary spice (like Tarot cards)
+- Light world consequences through ambient narrative flags
 
 ```
 Card Play (Cooking Phase)
