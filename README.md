@@ -31,25 +31,25 @@ This is a poker game with linear progression, wrapped in a galactic menu builder
 
 Gameplay inspired mainly by:
 
-- Balatro
-- Duck Detective
-- Detective Instinct: Farewell, My Beloved (who was inspired by Famicon Detective Club)
-- The Rise of the Golden Idol
-- Citizen Sleeper
+- [Balatro](https://store.steampowered.com/app/2379780/Balatro/)
+- [Duck Detective](https://store.steampowered.com/app/2637990/Duck_Detective_The_Secret_Salami/)
+- [Detective Instinct: Farewell, My Beloved](https://store.steampowered.com/app/2689930/Detective_Instinct_Farewell_My_Beloved/) (who was inspired by Famicon Detective Club)
+- [The Case of the Golden Idol](https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol/)
+- [Citizen Sleeper](https://store.steampowered.com/app/1578650/Citizen_Sleeper/)
 
-In this game there is a FP + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
+In this game there is a FP (Flavor Points) + Insight economy. Usually 2 main phases per level: card play, narrative puzzle.
 
 - Card-based “cooking” gameplay (Balatro-style combo system), gives money and narrative clues (clue fragments)
-- Short narrative puzzle phase (Ace Attorney and Golden Idol inspired, 3–4 decisions)
-- Dual reward design: persistent cookware vs. temporary spice
+- Short narrative puzzle phase (Duck Detective and Golden Idol inspired, fill-in-the-blanks, 3~4 decisions)
+- Rewards: persistent cookware vs. temporary spice
 - Light world consequence through ambient narrative flags
 
 ```
 Card Play (Cooking Phase)
     ↓
-Narrative Puzzle (Dialogue Phase)
+Narrative Puzzle (Dialogue Phase, skippable)
     ↓
-Reward & Consequence (Synthesis Phase, optional)
+Reward & Consequence (Synthesis / Shop Phase, optional)
     ↓
 Preparation (Next Customer / Chapter)
     ↓
@@ -60,7 +60,9 @@ There may be an overarching main story connecting different characters' short st
 
 ## Art: direction
 
-Currrently going for a toon-shading low poly direction. Here is a very rough concept art (not in 3D yet).
+Currrently going for a toon-shading low poly direction. Aesthetics has 70s (a.k.a mid century), atomic age and far future elements. So gonna be colorful with some curvy shapes.
+
+Here is a very rough concept art (not in 3D yet).
 
 <img alt="2D concept of the VIP room" src="./docs-site/src/content/docs/art/vip-room-concept.jpg" width="400">
 

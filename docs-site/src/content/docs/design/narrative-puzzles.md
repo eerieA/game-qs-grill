@@ -2,8 +2,6 @@
 title: Narrative Micro-Puzzle Templates
 ---
 
-# Narrative Micro-Puzzle Templates
-
 1-Minute Golden Idol x Ace Attorney style mysteries. Temporary idea, might get axed very soon.
 
 ## 1. Core Design Goals
