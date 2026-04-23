@@ -21,17 +21,19 @@ The games name (temporary):
 
 `Phineas' Quasi-Stellar Luxodo Emporium & Grill`
 
-So it can be shortened to be `PhQSLEG`, which can be pronounced like "fix leg". But most in-game characters just call it "Phineas'", especially regulars.
+So it can be shortened to `PhQSLEG`, which can be pronounced like "fix leg". But most in-game characters just call it "Phineas'", "the Emporium" or "the E & G".
 
-The game world is a space opera stage, things happen in a fairly explored universe. Has several very active space races and political powers. The same as the trading game. See https://github.com/eerieA/game-nexarion .
+The game world is a space opera stage, things happen in a fairly explored universe. Has several well-established high-intelligence space races and political powers. The same as the trading game (https://github.com/eerieA/game-nexarion).
 
 A voice-over sample just to demo the vibe of it (will not go into prod):
 
-[Voice-over sample on SoundCloud](https://soundcloud.com/eeriea/qs-grill-narrative-sample).
+- Option A: [Listen on github.io pages](https://eeriea.github.io/game-qs-grill/narrative/proto-level/) (internal site, embedded audio player), or
+- Option B: [Listen on SoundCloud](https://soundcloud.com/eeriea/qs-grill-narrative-sample) (external site).
+
 
 ## Design: rough core game loop
 
-This is a poker game with linear progression, wrapped in a galactic menu builder and life coach simulation skin. Mechanics are Balatro-like poker rules (so just regular poker rules and customizable joker modifiers) mixed with some stories.
+This is a poker game with linear progression, wrapped in a galactic menu builder and life coaching simulation skin. Mechanics are Balatro-like poker rules (so just regular poker rules and customizable joker modifiers) mixed with some stories.
 
 Gameplay inspired mainly by:
 

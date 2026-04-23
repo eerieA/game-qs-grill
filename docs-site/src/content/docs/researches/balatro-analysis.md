@@ -21,9 +21,9 @@ Now imagine it were developed **not just for the og developer**, then we can gen
 - Needs higher customization on decks (game play toolset).
 - Doesn't strictly need the psychology dynamics in human-vs-human poker to have fun.
 
-I think this pitch line might work:
+I think this pitch line / **ELI5** might work:
 
-“A cards game, 2 mins adventures, but every round unlocks fun upgrades that let you break the scoring system.”
+“Simple cards game, 2 mins adventures each time; collect lots of colorul joker cards, which let you break the scoring system.”
 
 ## Player progression
 
