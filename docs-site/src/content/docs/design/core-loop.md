@@ -198,8 +198,6 @@ This is the test encounter already playable with pen & paper and Balatro as a st
 Client: Veydrin Diplomat
 Tags: “Fluid”, “Ceremony”, “Geopolitical Tension”
 
-> This has a corresponding playtest on paper. See [20251123.md](../playtests/20251123.md).
-
 ### Card Play Goals
 
 Round 1
