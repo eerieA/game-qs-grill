@@ -105,7 +105,7 @@ Tags and boss blinds. Provide oppotunity for surprises and more ad-hoc tactics.
 
 Very short cycle. Earn per hand and spend at then end of a blind.
 
-one in-stream, one out-stream.
+Roungly one in-stream, exactly one out-stream. Earning of money can be somewhat customized using gold cards, jokers, etc.
 
 #### Anti-fun calculation on scores
 
@@ -130,7 +130,7 @@ Typical design choice to create more risks.
 
 ## Art
 
-Simple art direction, unified silouettes. Visual identity is discernable. With classic pixel art charm. It is pretty clear art pieces for this game do not need to be too fancy because it is about numbers, so 2D static images are sufficient.
+Art direction aiming at simplicity: unified silouettes, familiar color palette, simple lighting, 2D spaces. Visual identity is discernable, with classic pixel art charm. It is pretty clear art pieces for this game do not need to be too fancy because it is about numbers, so 2D static images are sufficient.
 
 Despite that, regular cards, jokers, tarot, planet cards, packs etc already amounted to several hundreds of images.
 
