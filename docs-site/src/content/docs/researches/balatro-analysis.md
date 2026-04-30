@@ -105,7 +105,7 @@ Tags and boss blinds. Provide oppotunity for surprises and more ad-hoc tactics.
 
 Very short cycle. Earn per hand and spend at then end of a blind.
 
-Roungly one in-stream, exactly one out-stream. Earning of money can be somewhat customized using gold cards, jokers, etc.
+One in-stream, one out-stream.
 
 #### Anti-fun calculation on scores
 
@@ -122,7 +122,7 @@ Player obtain this resource at a pretty stable rate, unless they roll some modif
 
 Player spends money on shop items, for deck building.
 
-So overall one in-stream, one out-stream too, just with longer cycles.
+So overall roungly one in-stream, one out-stream too, with longer cycles. Earning of money can be somewhat customized using gold cards, jokers, etc.
 
 ### Sell at a loss
 
