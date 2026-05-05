@@ -1,8 +1,6 @@
 ---
-title: Prototype level narrative texts
+title: Proto level texts
 ---
-
-# Prototype level narrative texts
 
 Was used in [playtest 20251123](https://eeriea.github.io/game-qs-grill/playtests/20251123/). I made some polishing when transcribing it into this doc.
 

@@ -21,8 +21,11 @@ This document describes the latest design of the core loop.
     - [Tier-1 Puzzle](#tier-1-puzzle)
     - [Tier-2 Branching Dialogue](#tier-2-branching-dialogue)
 - [Rewards & Progression](#rewards--progression)
-    - [Insights (Persistent Resource)](#insights-persistent-resource)
-    - [Ingredients](#ingredients)
+    - [Money (currenty)](#money-currenty)
+    - [Insights (currency)](#insights-currency)
+    - [Ingredients (deck component)](#ingredients-deck-component)
+    - [Cookware (deck component)](#cookware-deck-component)
+    - [Spices (deck component)](#spices-deck-component)
     - [Cookware Synthesis (Long-Term Goal)](#cookware-synthesis-long-term-goal)
     - [Story State Tracking](#story-state-tracking)
 - [Example Encounter (Paper Proto template)](#example-encounter-paper-proto-template)
@@ -134,30 +137,44 @@ If player skips or does it very badly, there is a default ending for a customer.
 
 ## Rewards & Progression
 
-### Insights (Persistent Resource)
+### Money (currenty)
 
-Earned through:
+Main currency. Used for buying deck components in shop.
+
+### Insights (currency)
+
+Earned through card phase or narrative puzzle phase? (TBD)
+
+If narrative phase, can be earned through:
 
 * Tier-1 puzzle completion
 * Tier-2 outcomes (larger amounts)
-* Some card-play milestones
 
-Used for:
+If card play phase, can be earned through:
 
-* Synthesizing rare cookware
-* Cloning base ingredients or cards
-* Minor meta-progression upgrades (TBD)
+* Observing the customer, like in the The Séance of Blake Manor.
+* Observing environment and use certain combos to "hit" them.
+* Some card-play extra goals
 
-### Ingredients
+Used for (TBD):
 
-Narrative outcomes and card-play bonus goals award ingredients such as:
+* "Buy" clues to make narrative puzzles true ending easier.
+* Synthesizing rare cookware?
+* Cloning base ingredients or cards?
 
-* Phasebud
-* Pure Variant Phasebud
-* Chrono Oil
-* Abyss Salt
+### Ingredients (deck component)
 
-Ingredients are used as components in cookware synthesis.
+Equivalent to regular cards in Balaro. Card-play unlocks them. Mainly bought from shop.
+
+But card-play bonus goals award rarer ingredients? (TBD)
+
+### Cookware (deck component)
+
+Equivalent to jokers in Balaro. Card-play unlocks them. Mainly bought from shop.
+
+### Spices (deck component)
+
+Equivalent to planet cards in Balaro. Card-play unlocks them. Mainly bought from shop.
 
 ### Cookware Synthesis (Long-Term Goal)
 

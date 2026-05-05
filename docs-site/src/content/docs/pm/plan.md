@@ -1,17 +1,6 @@
 ---
-title: Rough project timeline plan
+title: Early timeline plan (Deprecated)
 ---
-
-<!-- TOC -->
-
-- [Slice 1 — **Hand Scoring System (Core Loop)**](#slice-1--hand-scoring-system-core-loop)
-    - [Tasks](#tasks)
-- [Slice 2 — **Joker System (Replayability)**](#slice-2--joker-system-replayability)
-    - [Tasks](#tasks)
-- [Slice 3 — **Blind & Shop Loop (Progression)**](#slice-3--blind--shop-loop-progression)
-- [Bonus Tips for Content Creation](#bonus-tips-for-content-creation)
-
-<!-- /TOC -->
 
 ## Slice 1 — **Hand Scoring System (Core Loop)**
 
